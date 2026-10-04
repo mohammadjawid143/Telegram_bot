@@ -1,0 +1,70 @@
+{
+  "classroom_chat_id": -1001234567890,
+  "public_chat_id": "@YOUR_PUBLIC_GROUP",
+  "public_group_url": "https://t.me/YOUR_PUBLIC_GROUP",
+  "required_channels": [
+    {
+      "name": "کانال عمومی",
+      "chat_id": "@YOUR_PUBLIC_CHANNEL",
+      "url": "https://t.me/YOUR_PUBLIC_CHANNEL"
+    },
+    {
+      "name": "کانال کلاس",
+      "chat_id": "@YOUR_CLASS_CHANNEL",
+      "url": "https://t.me/YOUR_CLASS_CHANNEL"
+    }
+  ],
+  "additional_classes": [],
+  "class_group_url": "",
+  "youtube_url": "",
+  "admin_ids": [
+    123456789
+  ],
+  "exempt_ids": [
+    987654321
+  ],
+  "delete_after_seconds": 900,
+  "message_limit": 12,
+  "quota_period": "cooldown",
+  "removal_list_title": "غایبین سه جلسه",
+  "class_name": "کلاس فرد",
+  "class_guidance": "در خصوصی ربات، راهنمای کلاس‌ها را باز کنید و کلاس مناسب خود را انتخاب کنید.",
+  "sessions_completed": null,
+  "report_chat_id": -1001234567890,
+  "report_enabled": true,
+  "report_hour": 21,
+  "report_minute": 0,
+  "timezone": "Asia/Tehran",
+  "database_path": "data/bot.sqlite3",
+  "check_interval_seconds": 60,
+  "guide_profiles": {
+    "odd": {
+      "days": "پنج‌شنبه و جمعه",
+      "iran_time": "۱۹:۳۰ تا ۲۱:۰۰",
+      "afghanistan_time": "۲۱:۰۰ تا ۲۲:۳۰",
+      "attendance": "۱۹:۳۵ تا ۱۹:۴۰ به وقت ایران",
+      "late_after": "از ۱۹:۴۱ به وقت ایران، ورود به جلسه پذیرفته نمی‌شود و غیبت ثبت می‌شود.",
+      "absence_rule": "حضور و غیاب از تاریخ ورود شما حساب می‌شود. با سه جلسه غیبت در یک ماه، طبق فهرست مدیر از کلاس آنلاین خارج می‌شوید و می‌توانید در Free Time ادامه دهید. شمارش ماهانه از نو آغاز می‌شود.",
+      "guidance": "کلاس‌ها از سطح مبتدی آغاز می‌شوند. جذب شاگرد در سطح متوسط و پیشرفته بعداً اعلام خواهد شد. برای یادگیری منظم، پیش از شروع جلسه آماده باشید و پرسش‌های درسی را در گروه عمومی مطرح کنید.",
+      "class_group_url": "https://t.me/YOUR_ODD_GROUP",
+      "class_channel_url": "https://t.me/YOUR_ODD_CHANNEL",
+      "public_group_url": "https://t.me/YOUR_PUBLIC_GROUP",
+      "public_channel_url": "https://t.me/YOUR_PUBLIC_CHANNEL",
+      "meet_url": "https://meet.google.com/abc-defg-hij"
+    },
+    "even": {
+      "days": "شنبه و دوشنبه",
+      "iran_time": "۱۸:۰۰ تا ۱۹:۳۰",
+      "afghanistan_time": "۱۹:۳۰ تا ۲۱:۰۰",
+      "attendance": "۱۸:۰۵ تا ۱۸:۱۰ به وقت ایران",
+      "late_after": "از ۱۸:۱۱ به وقت ایران، ورود به جلسه پذیرفته نمی‌شود و غیبت ثبت می‌شود.",
+      "absence_rule": "حضور و غیاب از تاریخ ورود شما حساب می‌شود. با سه جلسه غیبت در یک ماه، طبق فهرست مدیر از کلاس آنلاین خارج می‌شوید و می‌توانید در Free Time ادامه دهید. شمارش ماهانه از نو آغاز می‌شود.",
+      "guidance": "کلاس‌ها از سطح مبتدی آغاز می‌شوند. جذب شاگرد در سطح متوسط و پیشرفته بعداً اعلام خواهد شد. برای یادگیری منظم، پیش از شروع جلسه آماده باشید و پرسش‌های درسی را در گروه عمومی مطرح کنید.",
+      "class_group_url": "https://t.me/YOUR_EVEN_GROUP",
+      "class_channel_url": "https://t.me/YOUR_EVEN_CHANNEL",
+      "public_group_url": "https://t.me/YOUR_PUBLIC_GROUP",
+      "public_channel_url": "https://t.me/YOUR_PUBLIC_CHANNEL",
+      "meet_url": "https://meet.google.com/klm-nopq-rst"
+    }
+  }
+}

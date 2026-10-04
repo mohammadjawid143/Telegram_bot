@@ -1,0 +1,13 @@
+config.json
+data/
+__pycache__/
+*.pyc
+.env
+.env.cloud
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+*.bak
+*.zip
+*.tmp
+.venv/

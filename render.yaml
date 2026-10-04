@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: telegram-classroom-bot
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn web:application --bind 0.0.0.0:$PORT --workers 1 --threads 4 --timeout 120 --access-logfile - --error-logfile -
+    healthCheckPath: /healthz
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: TURSO_DATABASE_URL
+        sync: false
+      - key: TURSO_AUTH_TOKEN
+        sync: false
+      - key: WEBHOOK_SECRET
+        sync: false
+      - key: MAINTENANCE_SECRET
+        sync: false
+      - key: CONFIG_PATH
+        value: config.hosted.json
+      - key: PYTHONUNBUFFERED
+        value: "1"
